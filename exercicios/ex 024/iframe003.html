@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magni veritatis delectus perspiciatis fuga officia aspernatur eius quaerat est doloremque, deserunt dicta eum voluptatem beatae reiciendis ab maxime. Fugiat, soluta.</p>
+
+    <ul>
+        <li><a href="paginasextra/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginasextra/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginasextra/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore quo doloremque dignissimos, mollitia alias esse reprehenderit numquam blanditiis fuga accusamus fugiat consectetur neque beatae ea iusto recusandae laboriosam inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas amet incidunt enim unde! Unde a eius voluptate nihil nobis hic corporis pariatur esse, repellendus, molestias omnis porro quaerat optio suscipit.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções abaixo </h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium labore quo doloremque dignissimos, mollitia alias esse reprehenderit numquam blanditiis fuga accusamus fugiat consectetur neque beatae ea iusto recusandae laboriosam inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas amet incidunt enim unde! Unde a eius voluptate nihil nobis hic corporis pariatur esse, repellendus, molestias omnis porro quaerat optio suscipit.</p>  <img src='imagens/marcelo.png' alt=>" id="tela" name="frame" >
+        <p>Infelizmente seu navegador não e compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, praesentium. Placeat vitae illum cum voluptatem facilis amet autem perspiciatis esse optio, cupiditate aliquid minima sed natus unde magni incidunt nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor nam placeat ipsam itaque pariatur voluptate dicta consequuntur laboriosam cupiditate esse. Fugit a accusantium odit voluptatum? Alias nemo repudiandae similique illo.</p>
+
+</body>
+</html>
